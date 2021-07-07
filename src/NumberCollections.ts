@@ -1,5 +1,8 @@
-export class NumbersCollection {
-  constructor(public data: number[]) {}
+export class NumbersCollection  {
+  constructor(public data: number[]) {
+
+
+  }
 
   get length(): number {
     return this.data.length;
@@ -16,7 +19,4 @@ export class NumbersCollection {
   }
 }
 
-const arr = [1, 2];
-const collect = new NumbersCollection(arr);
 
-console.log(collect.length);
