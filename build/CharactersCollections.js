@@ -21,7 +21,6 @@ var CharactersCollections = /** @class */ (function () {
         textToArray[leftIndex] = textToArray[rightIndex];
         textToArray[rightIndex] = leftHand;
         this.data = textToArray.join('');
-        console.log('textto arr is', this.data);
     };
     return CharactersCollections;
 }());

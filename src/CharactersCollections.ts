@@ -20,7 +20,5 @@ export class CharactersCollections {
     textToArray[rightIndex] = leftHand;
 
     this.data = textToArray.join('');
-
-    console.log('textto arr is', this.data);
   }
 }
