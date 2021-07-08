@@ -23,6 +23,3 @@ var NumbersCollection = /** @class */ (function () {
     return NumbersCollection;
 }());
 exports.NumbersCollection = NumbersCollection;
-var arr = [1, 2];
-var collect = new NumbersCollection(arr);
-console.log(collect.length);
